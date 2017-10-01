@@ -99,7 +99,7 @@
                     <replacements>
                         <replacement>
                             <token>maven-version-number</token>
-                            <value>${project.version}</value>
+                            <value>${describe}</value>
                         </replacement>
                     </replacements>
                 </configuration>
