@@ -33,7 +33,7 @@
         </repository>
         <repository>
             <id>sk89q-repo</id>
-            <url>>http://maven.sk89q.com/repo/</url>
+            <url>http://maven.sk89q.com/repo/</url>
         </repository>
     </repositories>
     <properties>
@@ -128,6 +128,12 @@
                                     </excludes>
                                 </filter>
                             </filters>
+                            <artifactSet>
+                                <excludes>
+                                    <exclude>com.google.guava:guava</exclude>
+                                    <exclude>org.slf4j:slf4j-api</exclude>
+                                </excludes>
+                            </artifactSet>
                             <relocations>
                                 <relocation>
                                     <pattern>bonecp</pattern>
