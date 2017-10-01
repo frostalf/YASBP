@@ -1,0 +1,7 @@
+name: YASBP
+main: ovh.gideon.yasbp.YASBP
+version: maven-version-number
+description: Yet Another Sky Block Plugin.
+authors: [GitGideon, Frostalf]
+website: gideon.ovh
+softdepend: [WorldEdit]
